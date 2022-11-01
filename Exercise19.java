@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Exercise18 {
+public class Exercise19 {
     public static  void main (String[]str) {
         //Bài tập 15
         /*
@@ -23,12 +23,12 @@ public class Exercise18 {
             for (int i = 1; i <= numberInput; i++) {
                 // handle denominator
                 float deno = 1;
-                for (int j = 1; j <= i; j++) {
+                for (int j = 1; j <= ( i * 2); j++) {
                     deno = deno * j;
                 }
 
                 //handle numerator
-                float nume = x * i;
+                float nume = x * ( i * 2);
 
                 //result
                 sum = sum + (float) nume / deno;
